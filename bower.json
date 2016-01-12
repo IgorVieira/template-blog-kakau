@@ -1,0 +1,19 @@
+{
+  "name": "kakau-template",
+  "version": "0.0.0",
+  "authors": [
+    "Igor Vieira <igorpereiraramosvieira@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.5",
+    "normalize.css": "~3.0.3"
+  }
+}
