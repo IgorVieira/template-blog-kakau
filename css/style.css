@@ -10,7 +10,7 @@
 
 
 
-body{  
+body{
   font-family: 'Raleway', sans-serif;
   background-color: #efebe9;
 }
@@ -18,6 +18,9 @@ body{
 .container-home{
   margin-top: 8rem;
 }
+
+
+
 
 nav{
   position: fixed;
@@ -29,18 +32,18 @@ nav{
 }
 
 nav .brand-logo{
-   
+
     font-weight: 5px;
     font-size: 15px;
     letter-spacing: 4px;
     text-transform: uppercase;
-   
+
 }
 
 nav ul a,
 nav .brand-logo {
   color: #444;
-  
+
 }
 
 nav .brand-logo:hover{
@@ -51,7 +54,7 @@ nav a:hover{
   color:#f48fb1;
   background: #ffffff;
 }
- 
+
 nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
@@ -60,8 +63,8 @@ nav a.button-collapse i {
 
 @media screen and (max-width: 966px){
   nav .brand-logo{
-    margin-left: 2em;
-  }
+     margin-left: -1em;
+   }
 }
 
 p {
@@ -136,7 +139,7 @@ footer .brand-logo{
     font-size: 15px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    
+
 }
 
 footer ul li a {
@@ -145,9 +148,3 @@ footer ul li a {
 footer ul li a:hover {
   color:#f48fb1;
 }
-
-
-
-
-
-
