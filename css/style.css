@@ -75,6 +75,10 @@ h6{
      line-height: 64px;
      color: #f48fb1;
  }
+ 
+ nav ul li:hover{
+   background:none;
+ }
 
  @media screen and (max-width: 966px){
    nav .brand-logo{
