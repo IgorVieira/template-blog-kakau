@@ -1,5 +1,4 @@
-/* Igor Vieira */
-
+/*Igor Vieira*/
 @import url("http://fonts.googleapis.com/css?family=Raleway");
 
  body{
@@ -77,7 +76,7 @@ h6{
  }
  
  nav ul li a:hover{
-   background:none;
+   background: none;
  }
 
  @media screen and (max-width: 966px){
@@ -169,6 +168,41 @@ h6{
  }
 
 
- .pagination li.active {
-     background-color: #f48fb1;
- }
+.input-field label {
+  color: #000;
+}
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+.input-field input[type=password]:focus + label {
+  color: #000;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field .prefix.active {
+  color: #000;
+}
+
+
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #000000;
+  box-shadow: 0 1px 0 0 #000000;
+}
+.dropdown-content li a{
+  color: #f48fb1;
+}
+
+.dropdown-content li a:hover{
+  color: #f48fb1;
+}
